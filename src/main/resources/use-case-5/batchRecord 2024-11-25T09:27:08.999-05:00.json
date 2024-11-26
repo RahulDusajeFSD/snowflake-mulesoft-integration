@@ -1,0 +1,1002 @@
+[
+  {
+    "C_CUSTKEY": 5200101,
+    "C_NAME": "Customer#005200101",
+    "C_ADDRESS": "0y,J6xTSIuQtpJw99CxTS7fJ2wWk5",
+    "C_NATIONKEY": 15,
+    "C_PHONE": "25-555-139-7893",
+    "C_ACCTBAL": 6041.34,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "nic packages detect according to the regular requests. carefully express p"
+  },
+  {
+    "C_CUSTKEY": 5200102,
+    "C_NAME": "Customer#005200102",
+    "C_ADDRESS": "GwLq0MUhUNGkmc",
+    "C_NATIONKEY": 19,
+    "C_PHONE": "29-424-596-8128",
+    "C_ACCTBAL": 4832.49,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "ts haggle blithely regular requests. regular, ironic pinto beans boost evenly. idle deposits cajole"
+  },
+  {
+    "C_CUSTKEY": 5200103,
+    "C_NAME": "Customer#005200103",
+    "C_ADDRESS": "RlN8a7B2s925yIyQgkgzljeU",
+    "C_NATIONKEY": 4,
+    "C_PHONE": "14-696-576-1550",
+    "C_ACCTBAL": 4660.71,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "es are fluffily. accounts kindle fluffily. furiously regular deposits unwind quickly. furiously final ideas "
+  },
+  {
+    "C_CUSTKEY": 5200104,
+    "C_NAME": "Customer#005200104",
+    "C_ADDRESS": "1xi1Z 9sA4Lff34Y7IoJ303Np82ZMAN9",
+    "C_NATIONKEY": 4,
+    "C_PHONE": "14-947-467-7279",
+    "C_ACCTBAL": -426.07,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "t silently bold instructions. blithely regular instructions despite the special asympt"
+  },
+  {
+    "C_CUSTKEY": 5200105,
+    "C_NAME": "Customer#005200105",
+    "C_ADDRESS": "uL26T466ZV8VxN8CpABdoEBCfoVUlER2erS1u",
+    "C_NATIONKEY": 9,
+    "C_PHONE": "19-389-705-9353",
+    "C_ACCTBAL": 8971.13,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": " instructions nag. deposits are furiously ironic deposits. unusual, special foxes are. carefully iron"
+  },
+  {
+    "C_CUSTKEY": 5200106,
+    "C_NAME": "Customer#005200106",
+    "C_ADDRESS": "Sp4yd,ixNIKQY5JCxCNws5DEcJiFt73VndZSya1",
+    "C_NATIONKEY": 10,
+    "C_PHONE": "20-148-912-5790",
+    "C_ACCTBAL": 9933.56,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "s. thin, regular theodolites was furiously? ironic ideas cajole furi"
+  },
+  {
+    "C_CUSTKEY": 5200107,
+    "C_NAME": "Customer#005200107",
+    "C_ADDRESS": "huKhaRgM9U 3XCPj89c yXwMLcyQ2rdJxT5",
+    "C_NATIONKEY": 4,
+    "C_PHONE": "14-408-968-5915",
+    "C_ACCTBAL": 4354.48,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": " wake quickly about the carefully express excuses. carefully special theodolites boost furiously. silent orbits "
+  },
+  {
+    "C_CUSTKEY": 5200108,
+    "C_NAME": "Customer#005200108",
+    "C_ADDRESS": "bZmHsZJt45Uynsnfg8Gqh3s4PA9ryUj6L7,vy3",
+    "C_NATIONKEY": 10,
+    "C_PHONE": "20-926-864-6958",
+    "C_ACCTBAL": 672.87,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "t the special pinto beans. as"
+  },
+  {
+    "C_CUSTKEY": 5200109,
+    "C_NAME": "Customer#005200109",
+    "C_ADDRESS": "16 pA3VBlsntisJ",
+    "C_NATIONKEY": 23,
+    "C_PHONE": "33-976-562-1983",
+    "C_ACCTBAL": 9806.18,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "riously even requests cajole blithely pinto beans. fluffily final deposits use bli"
+  },
+  {
+    "C_CUSTKEY": 5200110,
+    "C_NAME": "Customer#005200110",
+    "C_ADDRESS": "kTKa1ibGzI9ZuvOygeZgXHji446XOzk7pFsp9",
+    "C_NATIONKEY": 11,
+    "C_PHONE": "21-411-425-7514",
+    "C_ACCTBAL": 8562.46,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": " dinos was. slyly even ideas boost fluffily. flu"
+  },
+  {
+    "C_CUSTKEY": 5200111,
+    "C_NAME": "Customer#005200111",
+    "C_ADDRESS": "tUVcIP43,rwBx0aKJ3TfWl raL7Q dPB4V23xDfw",
+    "C_NATIONKEY": 20,
+    "C_PHONE": "30-884-790-5839",
+    "C_ACCTBAL": 5325.18,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "e fluffily express sauternes. blithely regular accounts besides the carefully pending "
+  },
+  {
+    "C_CUSTKEY": 5200112,
+    "C_NAME": "Customer#005200112",
+    "C_ADDRESS": "80y p3Bdt8ADZsKjCf4zeOnwKI,aau",
+    "C_NATIONKEY": 22,
+    "C_PHONE": "32-891-874-5903",
+    "C_ACCTBAL": 2383.02,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "instructions. regular instructions alongside of the regular, final frets wake blithely according to the fluffil"
+  },
+  {
+    "C_CUSTKEY": 5200113,
+    "C_NAME": "Customer#005200113",
+    "C_ADDRESS": "mjgC2uT5FihMJJGuV8XX1mN8l",
+    "C_NATIONKEY": 7,
+    "C_PHONE": "17-806-507-8890",
+    "C_ACCTBAL": 9438.33,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "deposits haggle furiously above the enticingly blithe pinto beans. carefu"
+  },
+  {
+    "C_CUSTKEY": 5200114,
+    "C_NAME": "Customer#005200114",
+    "C_ADDRESS": "KNBqkWSh1nUiOXgViy2fVohXysDwV1",
+    "C_NATIONKEY": 9,
+    "C_PHONE": "19-794-643-2684",
+    "C_ACCTBAL": 8013.97,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "ular orbits boost. deposits haggle. blith"
+  },
+  {
+    "C_CUSTKEY": 5200115,
+    "C_NAME": "Customer#005200115",
+    "C_ADDRESS": " TFQcG9DgycZ2wX9VoH3Mla1ZwK",
+    "C_NATIONKEY": 1,
+    "C_PHONE": "11-500-663-1306",
+    "C_ACCTBAL": 4781.56,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "ies sleep besides the ironic dolphins. ironic, final pinto beans wake acr"
+  },
+  {
+    "C_CUSTKEY": 5200116,
+    "C_NAME": "Customer#005200116",
+    "C_ADDRESS": "Q5q6sFnKImBZEN5KQNI",
+    "C_NATIONKEY": 18,
+    "C_PHONE": "28-682-525-1906",
+    "C_ACCTBAL": 6694.34,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "cross the requests. furiously regular requ"
+  },
+  {
+    "C_CUSTKEY": 5200117,
+    "C_NAME": "Customer#005200117",
+    "C_ADDRESS": "12s17JvjDazWHn",
+    "C_NATIONKEY": 11,
+    "C_PHONE": "21-696-319-7363",
+    "C_ACCTBAL": 1849.78,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "egular, pending theodolites. packages wake c"
+  },
+  {
+    "C_CUSTKEY": 5200118,
+    "C_NAME": "Customer#005200118",
+    "C_ADDRESS": "XSVAeV4P78qALXWf3IVgzSFcDwnwdnQ0VJrBg",
+    "C_NATIONKEY": 13,
+    "C_PHONE": "23-289-199-2467",
+    "C_ACCTBAL": 1239.15,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": " affix furiously furiously final pinto beans. regular accounts cajole about the furiously furious deco"
+  },
+  {
+    "C_CUSTKEY": 5200119,
+    "C_NAME": "Customer#005200119",
+    "C_ADDRESS": "J,zOGjsKMMq KxYuv,iDFe",
+    "C_NATIONKEY": 2,
+    "C_PHONE": "12-937-458-8855",
+    "C_ACCTBAL": 1277.41,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "equests haggle. express, express dependencies u"
+  },
+  {
+    "C_CUSTKEY": 5200120,
+    "C_NAME": "Customer#005200120",
+    "C_ADDRESS": "QF0sZOYHOItOlA scV0a0rkNP06ZgaMW",
+    "C_NATIONKEY": 12,
+    "C_PHONE": "22-871-304-6004",
+    "C_ACCTBAL": 6335.47,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "ole furiously. express requests boost carefully. deposits affix slyly. expres"
+  },
+  {
+    "C_CUSTKEY": 5200121,
+    "C_NAME": "Customer#005200121",
+    "C_ADDRESS": "g0XzP,ezy9GiNig2Q1lQ27bjA9 waeghMI",
+    "C_NATIONKEY": 23,
+    "C_PHONE": "33-874-494-3394",
+    "C_ACCTBAL": 9280.18,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "al waters are carefully final deposits. fluffily bold deposits wake. carefully pending "
+  },
+  {
+    "C_CUSTKEY": 5200122,
+    "C_NAME": "Customer#005200122",
+    "C_ADDRESS": "7pSPx4XvZ1d,jQ3cLRjAhAAf1kfpm",
+    "C_NATIONKEY": 19,
+    "C_PHONE": "29-722-965-8546",
+    "C_ACCTBAL": 1006.56,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "l deposits boost carefully furiously final requests. regular excuses haggle regular ideas? the"
+  },
+  {
+    "C_CUSTKEY": 5200123,
+    "C_NAME": "Customer#005200123",
+    "C_ADDRESS": "VmNucmHpVD3mbM07",
+    "C_NATIONKEY": 7,
+    "C_PHONE": "17-176-164-5957",
+    "C_ACCTBAL": 8150.67,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "he slyly special pearls eat slyly furio"
+  },
+  {
+    "C_CUSTKEY": 5200124,
+    "C_NAME": "Customer#005200124",
+    "C_ADDRESS": "EDkftGvWOylpUcOfXCP,N6W kprLtHSm",
+    "C_NATIONKEY": 5,
+    "C_PHONE": "15-935-555-1837",
+    "C_ACCTBAL": 3291.66,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "ts affix quickly unusual, even sentiments. brave, regular e"
+  },
+  {
+    "C_CUSTKEY": 5200125,
+    "C_NAME": "Customer#005200125",
+    "C_ADDRESS": "kcxYVzaBnMkfrCGozhyZlIuKq4meE",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-872-639-6136",
+    "C_ACCTBAL": 1986.17,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": " final, final packages cajole never-- carefull"
+  },
+  {
+    "C_CUSTKEY": 5200126,
+    "C_NAME": "Customer#005200126",
+    "C_ADDRESS": "Tit,0SJ5BoGsjGVjle026JRO8",
+    "C_NATIONKEY": 9,
+    "C_PHONE": "19-625-708-8234",
+    "C_ACCTBAL": 5551.73,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "tly against the packages. ironic, pending platelets after"
+  },
+  {
+    "C_CUSTKEY": 5200127,
+    "C_NAME": "Customer#005200127",
+    "C_ADDRESS": "NBPlHRDMEmN pFPVG7yF",
+    "C_NATIONKEY": 22,
+    "C_PHONE": "32-100-135-7755",
+    "C_ACCTBAL": 3929.51,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "ove the deposits was carefully across the theodolites. even theodolites after"
+  },
+  {
+    "C_CUSTKEY": 5200128,
+    "C_NAME": "Customer#005200128",
+    "C_ADDRESS": "HKqwDkoufpGs1OJWXf1pHm44nyAujI4qf5msV",
+    "C_NATIONKEY": 8,
+    "C_PHONE": "18-708-258-5120",
+    "C_ACCTBAL": 8276.13,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "escapades. blithely ironic foxes haggle: furiously ironic pinto beans mold af"
+  },
+  {
+    "C_CUSTKEY": 5200129,
+    "C_NAME": "Customer#005200129",
+    "C_ADDRESS": "Awj5B5sd6WHn6OrzpQd8U362EkW 5A,9j r",
+    "C_NATIONKEY": 5,
+    "C_PHONE": "15-581-856-1739",
+    "C_ACCTBAL": 41.99,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "o the slyly special ideas. carefully special theodolites use slyly. silent, final accounts mai"
+  },
+  {
+    "C_CUSTKEY": 5200130,
+    "C_NAME": "Customer#005200130",
+    "C_ADDRESS": "YAJUoZAKVvFSo",
+    "C_NATIONKEY": 12,
+    "C_PHONE": "22-653-999-8425",
+    "C_ACCTBAL": -315.38,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "e even requests. carefully pending frets use carefully according to the furious"
+  },
+  {
+    "C_CUSTKEY": 5200131,
+    "C_NAME": "Customer#005200131",
+    "C_ADDRESS": "7JepJR8HDzJy5viF0vDxjn CehpwZTYLaIBi",
+    "C_NATIONKEY": 11,
+    "C_PHONE": "21-515-412-7286",
+    "C_ACCTBAL": -595.33,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "iously to the slyly express packages. carefully unusual accounts wake furiously. quickly even id"
+  },
+  {
+    "C_CUSTKEY": 5200132,
+    "C_NAME": "Customer#005200132",
+    "C_ADDRESS": "94jnvykzfvxEz4Ii",
+    "C_NATIONKEY": 13,
+    "C_PHONE": "23-793-848-3827",
+    "C_ACCTBAL": 2225.34,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "y packages cajole special courts. final, special de"
+  },
+  {
+    "C_CUSTKEY": 5200133,
+    "C_NAME": "Customer#005200133",
+    "C_ADDRESS": "Hw1McqmG3uVX5InHgXQ23iZzzckN",
+    "C_NATIONKEY": 22,
+    "C_PHONE": "32-837-772-9189",
+    "C_ACCTBAL": -710.78,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "egular excuses; express, regular ideas are fluffily bold theodolites? final, even c"
+  },
+  {
+    "C_CUSTKEY": 5200134,
+    "C_NAME": "Customer#005200134",
+    "C_ADDRESS": "WAOf3kHEQGQeOnmVFUe4rCJaAqHMn b",
+    "C_NATIONKEY": 12,
+    "C_PHONE": "22-292-163-4050",
+    "C_ACCTBAL": 8845.39,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "e packages. deposits haggle furiously agai"
+  },
+  {
+    "C_CUSTKEY": 5200135,
+    "C_NAME": "Customer#005200135",
+    "C_ADDRESS": "DUqAIBhiWYVdaXroL8vj0gkPlupPMtNb9S5UXLc",
+    "C_NATIONKEY": 20,
+    "C_PHONE": "30-916-644-3566",
+    "C_ACCTBAL": 8570.79,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "lar waters. slyly pending gifts haggle carefully blithely reg"
+  },
+  {
+    "C_CUSTKEY": 5200136,
+    "C_NAME": "Customer#005200136",
+    "C_ADDRESS": "37QppmiaaeaElje9",
+    "C_NATIONKEY": 10,
+    "C_PHONE": "20-595-433-5789",
+    "C_ACCTBAL": 2255.20,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "brave ideas are fluffily. carefully regular deposits co"
+  },
+  {
+    "C_CUSTKEY": 5200137,
+    "C_NAME": "Customer#005200137",
+    "C_ADDRESS": "W8btRoFjoC8isjwzJoDhdaBQ4zy",
+    "C_NATIONKEY": 9,
+    "C_PHONE": "19-499-718-3057",
+    "C_ACCTBAL": 6090.11,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "ully special excuses wake furiously across the carefully pending dolphin"
+  },
+  {
+    "C_CUSTKEY": 5200138,
+    "C_NAME": "Customer#005200138",
+    "C_ADDRESS": "Q0cNBAFHL5MvtxSbDZ",
+    "C_NATIONKEY": 18,
+    "C_PHONE": "28-232-743-5295",
+    "C_ACCTBAL": -568.94,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "ackages. closely regular courts are slyly final packages. even deposits across the furiousl"
+  },
+  {
+    "C_CUSTKEY": 5200139,
+    "C_NAME": "Customer#005200139",
+    "C_ADDRESS": "g7w0M0sfMVZQ,cpctPh t1sB3tC",
+    "C_NATIONKEY": 15,
+    "C_PHONE": "25-309-106-8892",
+    "C_ACCTBAL": 5776.32,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": ". furiously express requests across the carefully special packages wake furiously slyly final instructions"
+  },
+  {
+    "C_CUSTKEY": 5200140,
+    "C_NAME": "Customer#005200140",
+    "C_ADDRESS": "Kr870hdCSgGabpXwnt3Sa26lIvBtzZX",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-512-153-4856",
+    "C_ACCTBAL": 5582.19,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "blithely regular foxes. carefu"
+  },
+  {
+    "C_CUSTKEY": 5200141,
+    "C_NAME": "Customer#005200141",
+    "C_ADDRESS": "AcBecmuKgd1T5zC9pRrL F3E",
+    "C_NATIONKEY": 10,
+    "C_PHONE": "20-698-802-1592",
+    "C_ACCTBAL": 9893.41,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "ously. final, regular instructions "
+  },
+  {
+    "C_CUSTKEY": 5200142,
+    "C_NAME": "Customer#005200142",
+    "C_ADDRESS": "7LUrivt5rtYL0SOhaSEO2tDkRo vb ",
+    "C_NATIONKEY": 7,
+    "C_PHONE": "17-811-142-1099",
+    "C_ACCTBAL": 703.51,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": ". regular theodolites sleep after the theodolites! even deposits abou"
+  },
+  {
+    "C_CUSTKEY": 5200143,
+    "C_NAME": "Customer#005200143",
+    "C_ADDRESS": "ncK4WWxm5pPUyvc1tV6",
+    "C_NATIONKEY": 14,
+    "C_PHONE": "24-503-934-3558",
+    "C_ACCTBAL": 7850.31,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "ironic sauternes haggle carefully blithely special pinto beans. packages haggle furi"
+  },
+  {
+    "C_CUSTKEY": 5200144,
+    "C_NAME": "Customer#005200144",
+    "C_ADDRESS": "1uO4B8wcDSq06",
+    "C_NATIONKEY": 12,
+    "C_PHONE": "22-848-463-8885",
+    "C_ACCTBAL": 4185.58,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "nto beans. carefully bold accounts wake furiously regular reque"
+  },
+  {
+    "C_CUSTKEY": 5200145,
+    "C_NAME": "Customer#005200145",
+    "C_ADDRESS": "lpkA60 5fNMvLYnKF arMdfzQrEC",
+    "C_NATIONKEY": 2,
+    "C_PHONE": "12-491-879-9129",
+    "C_ACCTBAL": -35.44,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "y about the final pinto beans. unusual"
+  },
+  {
+    "C_CUSTKEY": 5200146,
+    "C_NAME": "Customer#005200146",
+    "C_ADDRESS": "MyjFa81bNGqNjG49gop9uWPKCfeFP0f0XW4",
+    "C_NATIONKEY": 13,
+    "C_PHONE": "23-847-572-5227",
+    "C_ACCTBAL": 7357.75,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": " wake finally. bold accounts are f"
+  },
+  {
+    "C_CUSTKEY": 5200147,
+    "C_NAME": "Customer#005200147",
+    "C_ADDRESS": "oA10ihzXv4,7dmxx",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-361-615-2669",
+    "C_ACCTBAL": 8667.08,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "osits. slyly regular packages use furiously regu"
+  },
+  {
+    "C_CUSTKEY": 5200148,
+    "C_NAME": "Customer#005200148",
+    "C_ADDRESS": "3pCYUtmyOzy",
+    "C_NATIONKEY": 0,
+    "C_PHONE": "10-644-155-5582",
+    "C_ACCTBAL": 3694.38,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "s across the carefully unusual theodolites detect requests. theodolites cajole against"
+  },
+  {
+    "C_CUSTKEY": 5200149,
+    "C_NAME": "Customer#005200149",
+    "C_ADDRESS": "DZAIFIewgGTw",
+    "C_NATIONKEY": 13,
+    "C_PHONE": "23-648-777-2344",
+    "C_ACCTBAL": 5461.99,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "he blithely even packages. furiously ironic deposits unwind carefully slowly silent deposits"
+  },
+  {
+    "C_CUSTKEY": 5200150,
+    "C_NAME": "Customer#005200150",
+    "C_ADDRESS": "rufjnFIV4ZmEEmY,aDi73NqOHt",
+    "C_NATIONKEY": 24,
+    "C_PHONE": "34-898-167-7767",
+    "C_ACCTBAL": 2651.08,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "e fluffily about the furiously ironic accounts. carefully even accounts print blithely. unusua"
+  },
+  {
+    "C_CUSTKEY": 5200151,
+    "C_NAME": "Customer#005200151",
+    "C_ADDRESS": "zU0CdFG4t0WswTipI9iQgFJOMENoy7aUos",
+    "C_NATIONKEY": 15,
+    "C_PHONE": "25-805-849-7919",
+    "C_ACCTBAL": 4748.13,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "uts integrate blithely about the deposits. blithely ironic deposits shall are always even instructions. reg"
+  },
+  {
+    "C_CUSTKEY": 5200152,
+    "C_NAME": "Customer#005200152",
+    "C_ADDRESS": "qq7Li15BFpZVIQ0dJmJqt",
+    "C_NATIONKEY": 13,
+    "C_PHONE": "23-579-251-2775",
+    "C_ACCTBAL": 5783.39,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "arefully quickly even packages. quickly regular dependencies wake. even, bold instructions acc"
+  },
+  {
+    "C_CUSTKEY": 5200153,
+    "C_NAME": "Customer#005200153",
+    "C_ADDRESS": "FyFAKDuL6cWKT 2EIHN SJ2XYjEvMykYiIOZ",
+    "C_NATIONKEY": 8,
+    "C_PHONE": "18-354-354-5649",
+    "C_ACCTBAL": 3464.56,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "to the bold, ironic deposits."
+  },
+  {
+    "C_CUSTKEY": 5200154,
+    "C_NAME": "Customer#005200154",
+    "C_ADDRESS": " TX8s4EBHNaZDnvRIn8UQM7",
+    "C_NATIONKEY": 19,
+    "C_PHONE": "29-161-869-4087",
+    "C_ACCTBAL": 3869.95,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "ites. ironic deposits must have to haggle across the quickly regular instructions. quickly fina"
+  },
+  {
+    "C_CUSTKEY": 5200155,
+    "C_NAME": "Customer#005200155",
+    "C_ADDRESS": "6kuzLZjJIOAAYsH",
+    "C_NATIONKEY": 6,
+    "C_PHONE": "16-396-956-4354",
+    "C_ACCTBAL": 8168.72,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "ges are about the deposits. ent"
+  },
+  {
+    "C_CUSTKEY": 5200156,
+    "C_NAME": "Customer#005200156",
+    "C_ADDRESS": "vwLow3HxF5RcNPy4Y9Gjd7,2FARUbRrqG5Lx4Abz",
+    "C_NATIONKEY": 0,
+    "C_PHONE": "10-598-320-3352",
+    "C_ACCTBAL": 9805.27,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "ld, pending accounts. final requests "
+  },
+  {
+    "C_CUSTKEY": 5200157,
+    "C_NAME": "Customer#005200157",
+    "C_ADDRESS": "CG4nNONne9qWoat5ulojdkaJrwn",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-629-830-4761",
+    "C_ACCTBAL": 4268.22,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": " ironic packages poach across"
+  },
+  {
+    "C_CUSTKEY": 5200158,
+    "C_NAME": "Customer#005200158",
+    "C_ADDRESS": "RKhV9ErCaCKQ8UkdMl0ELtG",
+    "C_NATIONKEY": 13,
+    "C_PHONE": "23-278-747-7101",
+    "C_ACCTBAL": 2968.82,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "e carefully theodolites. slyly regular packages among th"
+  },
+  {
+    "C_CUSTKEY": 5200159,
+    "C_NAME": "Customer#005200159",
+    "C_ADDRESS": "sXGr2LuaMPeTgSq3lo",
+    "C_NATIONKEY": 14,
+    "C_PHONE": "24-526-626-2455",
+    "C_ACCTBAL": 9996.01,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "ng to the thinly special excuses cajole quickly across th"
+  },
+  {
+    "C_CUSTKEY": 5200160,
+    "C_NAME": "Customer#005200160",
+    "C_ADDRESS": "ZwUPtGO,GJHYp1 rPl9IuPR0LvhcXL053WekukAP",
+    "C_NATIONKEY": 1,
+    "C_PHONE": "11-578-516-3203",
+    "C_ACCTBAL": 9102.42,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "packages. carefully idle dependencies wake always about"
+  },
+  {
+    "C_CUSTKEY": 5200161,
+    "C_NAME": "Customer#005200161",
+    "C_ADDRESS": "puSYBA0bO0UN",
+    "C_NATIONKEY": 2,
+    "C_PHONE": "12-171-746-2432",
+    "C_ACCTBAL": 5475.22,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "eat blithely. blithely unusual theod"
+  },
+  {
+    "C_CUSTKEY": 5200162,
+    "C_NAME": "Customer#005200162",
+    "C_ADDRESS": "j5ouh9xl605XIX,Y4X3ytJQlTFJSfKfQXOLHjYGq",
+    "C_NATIONKEY": 21,
+    "C_PHONE": "31-100-767-3161",
+    "C_ACCTBAL": 5053.39,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "accounts wake furiously quickly pending platelets. furiously ironic dependencies wake furiously about t"
+  },
+  {
+    "C_CUSTKEY": 5200163,
+    "C_NAME": "Customer#005200163",
+    "C_ADDRESS": "rglJAgE8gFQT5eO5ceHU7D52cFrBjTxvBhzTk",
+    "C_NATIONKEY": 6,
+    "C_PHONE": "16-125-771-4598",
+    "C_ACCTBAL": -612.39,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "o beans. unusual pinto beans haggle above the bold packages. special, ironic reque"
+  },
+  {
+    "C_CUSTKEY": 5200164,
+    "C_NAME": "Customer#005200164",
+    "C_ADDRESS": "k ,fgWqlZnREfGNh5OrVYCG3q2O5QXr8q5qopmh2",
+    "C_NATIONKEY": 7,
+    "C_PHONE": "17-393-695-2922",
+    "C_ACCTBAL": 1493.27,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": " haggle about the unusual accounts. even packages sleep. fluffily ironic epitaphs haggle"
+  },
+  {
+    "C_CUSTKEY": 5200165,
+    "C_NAME": "Customer#005200165",
+    "C_ADDRESS": "5vTypabDvn0s8KNvAJgSZtQU9Olf8OGE P",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-426-233-6717",
+    "C_ACCTBAL": 4278.64,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "xpress dolphins haggle packages. quickly final deposits wake blithely. blithely regular deposits "
+  },
+  {
+    "C_CUSTKEY": 5200166,
+    "C_NAME": "Customer#005200166",
+    "C_ADDRESS": "Udmk1RKlm6lk3EkRYdBDV,F",
+    "C_NATIONKEY": 22,
+    "C_PHONE": "32-956-896-3200",
+    "C_ACCTBAL": 2028.32,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "y; ironically special deposits eat blithely. slyly express deposits cajole carefully slyly special "
+  },
+  {
+    "C_CUSTKEY": 5200167,
+    "C_NAME": "Customer#005200167",
+    "C_ADDRESS": "Y0kn5An29I b",
+    "C_NATIONKEY": 9,
+    "C_PHONE": "19-789-864-1320",
+    "C_ACCTBAL": 9876.65,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "even courts use. enticing, even depo"
+  },
+  {
+    "C_CUSTKEY": 5200168,
+    "C_NAME": "Customer#005200168",
+    "C_ADDRESS": "wKVNFIddwx y6JgESqSVay7MKw",
+    "C_NATIONKEY": 8,
+    "C_PHONE": "18-124-195-4839",
+    "C_ACCTBAL": 4922.38,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "es sleep above the slyly ironic packages. pending, reg"
+  },
+  {
+    "C_CUSTKEY": 5200169,
+    "C_NAME": "Customer#005200169",
+    "C_ADDRESS": "d9MB31UAOUVDvzrA",
+    "C_NATIONKEY": 14,
+    "C_PHONE": "24-919-617-2103",
+    "C_ACCTBAL": 8512.97,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "y pending notornis. carefully even packages engage above the quickly ironic deposits. ironic fox"
+  },
+  {
+    "C_CUSTKEY": 5200170,
+    "C_NAME": "Customer#005200170",
+    "C_ADDRESS": "bZA0ZlOCOdxAkpK3r7IyKPeTQAaTX1gWv1",
+    "C_NATIONKEY": 7,
+    "C_PHONE": "17-294-404-5341",
+    "C_ACCTBAL": 9539.70,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "ons use ironically after the even, ironic deposits. express dolphins sleep blithely. quickly special as"
+  },
+  {
+    "C_CUSTKEY": 5200171,
+    "C_NAME": "Customer#005200171",
+    "C_ADDRESS": "RVGhwQUD 4ojDMMtBSewd5gGwnl3cZ04s,e",
+    "C_NATIONKEY": 5,
+    "C_PHONE": "15-700-594-5695",
+    "C_ACCTBAL": 6885.23,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "ly special accounts nag idly carefully pending requests. sl"
+  },
+  {
+    "C_CUSTKEY": 5200172,
+    "C_NAME": "Customer#005200172",
+    "C_ADDRESS": "sp9K4veQcUEtHIopEqS75MEREkCkif",
+    "C_NATIONKEY": 18,
+    "C_PHONE": "28-786-309-4316",
+    "C_ACCTBAL": 9046.55,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "telets. slyly express ideas detect. final packages against the packages detect "
+  },
+  {
+    "C_CUSTKEY": 5200173,
+    "C_NAME": "Customer#005200173",
+    "C_ADDRESS": "ZH52moPwCZO7qrVmjODO3tsTvXXeTvGJzuDE",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-211-676-5464",
+    "C_ACCTBAL": 1452.27,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "detect furiously regular packages. finally quick foxes are. quickly regular accounts arou"
+  },
+  {
+    "C_CUSTKEY": 5200174,
+    "C_NAME": "Customer#005200174",
+    "C_ADDRESS": "4QDOPvm6C qGSPn8z 9YK",
+    "C_NATIONKEY": 13,
+    "C_PHONE": "23-572-721-3768",
+    "C_ACCTBAL": 8180.20,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "refully unusual deposits. packages wake blithely. regular asymptotes use blithely. regular theodolite"
+  },
+  {
+    "C_CUSTKEY": 5200175,
+    "C_NAME": "Customer#005200175",
+    "C_ADDRESS": "Pu,WAePOrItyl4yZH7Pw",
+    "C_NATIONKEY": 14,
+    "C_PHONE": "24-770-197-3348",
+    "C_ACCTBAL": 4711.93,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": " carefully ironic asymptotes. regular requests wake carefully. permanently even theodolites are. blithely regu"
+  },
+  {
+    "C_CUSTKEY": 5200176,
+    "C_NAME": "Customer#005200176",
+    "C_ADDRESS": "VpUr23g00HwnO1QHVtoHAguodqUfNlX0EHZB6",
+    "C_NATIONKEY": 9,
+    "C_PHONE": "19-630-257-6386",
+    "C_ACCTBAL": 2342.48,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "to beans haggle according to the furiously ironic ideas. fluffily express dependencies so"
+  },
+  {
+    "C_CUSTKEY": 5200177,
+    "C_NAME": "Customer#005200177",
+    "C_ADDRESS": "ADcP7,lLxsk7qu JsQrIYd8M",
+    "C_NATIONKEY": 0,
+    "C_PHONE": "10-622-222-5502",
+    "C_ACCTBAL": -901.74,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": " silent dolphins. regular, daring notornis cajole according to the even accounts. express dinos sleep carefully a"
+  },
+  {
+    "C_CUSTKEY": 5200178,
+    "C_NAME": "Customer#005200178",
+    "C_ADDRESS": ",hafu8NSkvRfb5yyLHcYGCVYhMJ6IqmUx2WfRpj",
+    "C_NATIONKEY": 0,
+    "C_PHONE": "10-590-131-5813",
+    "C_ACCTBAL": 290.81,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": ". slyly regular requests use blithely. sometimes even ideas sleep to the slyly regular pinto beans. furiously sp"
+  },
+  {
+    "C_CUSTKEY": 5200179,
+    "C_NAME": "Customer#005200179",
+    "C_ADDRESS": "Ht,G3Ne9Cldi5Eqi7JF",
+    "C_NATIONKEY": 8,
+    "C_PHONE": "18-417-847-8985",
+    "C_ACCTBAL": 1603.73,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "kages are slyly against the quick"
+  },
+  {
+    "C_CUSTKEY": 5200180,
+    "C_NAME": "Customer#005200180",
+    "C_ADDRESS": "F6azkazmNszbC,FfE8aCcK3 m0wphntcx",
+    "C_NATIONKEY": 2,
+    "C_PHONE": "12-730-516-3043",
+    "C_ACCTBAL": 1873.84,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "ight poach. blithely special accounts wake slyly"
+  },
+  {
+    "C_CUSTKEY": 5200181,
+    "C_NAME": "Customer#005200181",
+    "C_ADDRESS": "FQdSU1s5jjBGXTTAUr7OP5GK",
+    "C_NATIONKEY": 15,
+    "C_PHONE": "25-459-396-4929",
+    "C_ACCTBAL": 9584.96,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "le according to the quickly regular excuses. furiously regular foxes play! ironically fin"
+  },
+  {
+    "C_CUSTKEY": 5200182,
+    "C_NAME": "Customer#005200182",
+    "C_ADDRESS": "aiNUP2BW3OoUYmdKA oa",
+    "C_NATIONKEY": 8,
+    "C_PHONE": "18-722-993-6183",
+    "C_ACCTBAL": 8515.20,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "blithely slow packages. unusual accounts use blithely. excuses wake"
+  },
+  {
+    "C_CUSTKEY": 5200183,
+    "C_NAME": "Customer#005200183",
+    "C_ADDRESS": "0nDbwrXHjexL",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-398-731-7376",
+    "C_ACCTBAL": 3017.47,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "oxes cajole along the even, pending deposits. regular, ironic courts nag among th"
+  },
+  {
+    "C_CUSTKEY": 5200184,
+    "C_NAME": "Customer#005200184",
+    "C_ADDRESS": "ew7UFWdrxYTW",
+    "C_NATIONKEY": 10,
+    "C_PHONE": "20-657-224-6966",
+    "C_ACCTBAL": 2577.50,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "ake slyly. finally special foxes use. carefully final requests wake furiously against the final packages."
+  },
+  {
+    "C_CUSTKEY": 5200185,
+    "C_NAME": "Customer#005200185",
+    "C_ADDRESS": "zNXjrMRV0kkw",
+    "C_NATIONKEY": 4,
+    "C_PHONE": "14-471-644-7723",
+    "C_ACCTBAL": -16.10,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "thely regular platelets are. express packages use carefully after the even, express sauternes. ideas c"
+  },
+  {
+    "C_CUSTKEY": 5200186,
+    "C_NAME": "Customer#005200186",
+    "C_ADDRESS": "TQXM8yg wQdWL",
+    "C_NATIONKEY": 11,
+    "C_PHONE": "21-571-902-6064",
+    "C_ACCTBAL": 2323.80,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "lar packages according to the ironically pending deposits sublate dependencies. quickly even excuse"
+  },
+  {
+    "C_CUSTKEY": 5200187,
+    "C_NAME": "Customer#005200187",
+    "C_ADDRESS": "0KTW2rDVKXv0bebCwFHRHepfbAouFS986hOop3w",
+    "C_NATIONKEY": 15,
+    "C_PHONE": "25-609-907-1905",
+    "C_ACCTBAL": 4077.17,
+    "C_MKTSEGMENT": "HOUSEHOLD",
+    "C_COMMENT": "ely ironic requests. fluffily ironic accounts nag slyly against the pendi"
+  },
+  {
+    "C_CUSTKEY": 5200188,
+    "C_NAME": "Customer#005200188",
+    "C_ADDRESS": "WBiEhzIClNkBEKbHv8leCNQEfAXWHPo1xN4acJYI",
+    "C_NATIONKEY": 11,
+    "C_PHONE": "21-370-697-7806",
+    "C_ACCTBAL": 4057.45,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "he furiously ironic requests doz"
+  },
+  {
+    "C_CUSTKEY": 5200189,
+    "C_NAME": "Customer#005200189",
+    "C_ADDRESS": "9,orkOSEZ mSTA1oNbT4l3ovZIXhAx",
+    "C_NATIONKEY": 3,
+    "C_PHONE": "13-878-400-5291",
+    "C_ACCTBAL": 2638.01,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "sheaves. furiously silent accounts are across the furio"
+  },
+  {
+    "C_CUSTKEY": 5200190,
+    "C_NAME": "Customer#005200190",
+    "C_ADDRESS": "YlHNJAvRq2V",
+    "C_NATIONKEY": 24,
+    "C_PHONE": "34-857-585-7732",
+    "C_ACCTBAL": 4982.41,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": " blithely according to the even foxes. slyly regular requests cajole quickly. blith"
+  },
+  {
+    "C_CUSTKEY": 5200191,
+    "C_NAME": "Customer#005200191",
+    "C_ADDRESS": "up9PQ6YXfh",
+    "C_NATIONKEY": 23,
+    "C_PHONE": "33-818-466-5594",
+    "C_ACCTBAL": 5383.21,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "ly regular theodolites cajole furiously above the final sentiments. permanently ironic multipliers hin"
+  },
+  {
+    "C_CUSTKEY": 5200192,
+    "C_NAME": "Customer#005200192",
+    "C_ADDRESS": "V0Y1ZkWTYNaztLqp7TvHWaq9CZoESntKq",
+    "C_NATIONKEY": 14,
+    "C_PHONE": "24-477-124-8109",
+    "C_ACCTBAL": 9609.26,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": " deposits snooze thinly above the regular excuses. fluffily slow accounts against the slyly regular pinto beans cajo"
+  },
+  {
+    "C_CUSTKEY": 5200193,
+    "C_NAME": "Customer#005200193",
+    "C_ADDRESS": "Msq,cVrPVwAsbwR4AYtXdRfmwHbwrNGLqwk,",
+    "C_NATIONKEY": 14,
+    "C_PHONE": "24-478-338-8642",
+    "C_ACCTBAL": 9864.21,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "ies haggle fluffily final requests? slyly regular instructions cajole special deposits. pending instruction"
+  },
+  {
+    "C_CUSTKEY": 5200194,
+    "C_NAME": "Customer#005200194",
+    "C_ADDRESS": "XLVtjd18OlmBNZ ,zNpAyW4InL7FEZc8nPIJu A",
+    "C_NATIONKEY": 11,
+    "C_PHONE": "21-410-902-8362",
+    "C_ACCTBAL": 4833.90,
+    "C_MKTSEGMENT": "MACHINERY",
+    "C_COMMENT": "ccounts. express theodolites across the accounts sleep carefully among the ironic requests. ironi"
+  },
+  {
+    "C_CUSTKEY": 5200195,
+    "C_NAME": "Customer#005200195",
+    "C_ADDRESS": "HgeEn20,vaastplIJb2hM7imkkWOLCbc",
+    "C_NATIONKEY": 17,
+    "C_PHONE": "27-791-182-4935",
+    "C_ACCTBAL": 6381.79,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "ar accounts would eat at the accounts; ironic requests are t"
+  },
+  {
+    "C_CUSTKEY": 5200196,
+    "C_NAME": "Customer#005200196",
+    "C_ADDRESS": "PzupT6teDFPBUGEWOZ 7VjMF07vuWvuAV2Xbx5",
+    "C_NATIONKEY": 7,
+    "C_PHONE": "17-306-663-4863",
+    "C_ACCTBAL": 6823.69,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "l asymptotes. final packages sleep. furiously regular pinto beans integrate regular depende"
+  },
+  {
+    "C_CUSTKEY": 5200197,
+    "C_NAME": "Customer#005200197",
+    "C_ADDRESS": "aHHTa89ZvK2NdTP7h",
+    "C_NATIONKEY": 16,
+    "C_PHONE": "26-374-587-9391",
+    "C_ACCTBAL": 8743.07,
+    "C_MKTSEGMENT": "AUTOMOBILE",
+    "C_COMMENT": "arefully. blithely regular foxes integrate"
+  },
+  {
+    "C_CUSTKEY": 5200198,
+    "C_NAME": "Customer#005200198",
+    "C_ADDRESS": "V3S2Khew9ojYZHCKmi9mNVeOwatGiJM8Q",
+    "C_NATIONKEY": 23,
+    "C_PHONE": "33-466-714-5141",
+    "C_ACCTBAL": 4874.11,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": "he slyly even requests. slyly final accounts cajole blithely"
+  },
+  {
+    "C_CUSTKEY": 5200199,
+    "C_NAME": "Customer#005200199",
+    "C_ADDRESS": "F 53HGDsHuAHUjF",
+    "C_NATIONKEY": 21,
+    "C_PHONE": "31-891-620-2388",
+    "C_ACCTBAL": 164.16,
+    "C_MKTSEGMENT": "FURNITURE",
+    "C_COMMENT": "hely regular instructions about the carefully regular pa"
+  },
+  {
+    "C_CUSTKEY": 5200200,
+    "C_NAME": "Customer#005200200",
+    "C_ADDRESS": "V,BVXJemn3El",
+    "C_NATIONKEY": 20,
+    "C_PHONE": "30-807-932-6605",
+    "C_ACCTBAL": 7011.97,
+    "C_MKTSEGMENT": "BUILDING",
+    "C_COMMENT": " wake enticing, ironic theodolites. express, quick requests eat carefully. furiously"
+  }
+]

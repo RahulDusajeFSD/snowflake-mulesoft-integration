@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:secure-properties="http://www.mulesoft.org/schema/mule/secure-properties"
+	xmlns:snowflake="http://www.mulesoft.org/schema/mule/snowflake" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/snowflake http://www.mulesoft.org/schema/mule/snowflake/current/mule-snowflake.xsd
+http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/schema/mule/secure-properties/current/mule-secure-properties.xsd">
+		<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="2e6ddfbc-f056-4889-b11e-9edad14b828d" >
+		<http:listener-connection host="0.0.0.0" port="8081"/>
+	</http:listener-config>
+		<snowflake:snowflake-config name="snowflake_config_from_config_file" doc:name="Snowflake Config" doc:id="04b5ad86-a36b-4eae-914a-e08913bb8851" >
+		<snowflake:snowflake-connection accountName="${secure::snowflake.accountName}" warehouse="${secure::snowflake.warehouse}" database="${secure::snowflake.database}" schema="${secure::snowflake.schema}" user="${secure::snowflake.user}" password="${secure::snowflake.password}" role="${secure::snowflake.role}"/>
+	</snowflake:snowflake-config>
+	<http:listener-config name="http_listener_config_external_config" doc:name="HTTP Listener config" doc:id="09eb0d31-e41a-4912-af4c-d72f70b41bd6" >
+		<http:listener-connection host="0.0.0.0" port="${secure::http.port}" readTimeout="3000" />
+	</http:listener-config>
+	<secure-properties:config name="Secure_Properties_Config" doc:name="Secure Properties Config" doc:id="08067df6-8f73-4260-904c-13676968d451" file="config.yaml" key="${key}" >
+		<secure-properties:encrypt algorithm="Blowfish" />
+	</secure-properties:config>
+	<global-property doc:name="Global Property" doc:id="9b1c15ef-f89e-4b54-b4a3-45d36fe3806c" name="key" value="To_Be_Overidden" />
+</mule>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:snowflake="http://www.mulesoft.org/schema/mule/snowflake"
+	xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/snowflake http://www.mulesoft.org/schema/mule/snowflake/current/mule-snowflake.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+	<file:config name="File_Config" doc:name="File Config" doc:id="99115241-fc30-4e80-a9b0-962f226260e2" >
+		<file:connection workingDir="/Users/rahuldusaje/AnypointStudio/poc_wksp/snowflake-demo/src/main/resources/use-case-5/"/>
+	</file:config>
+	<flow name="snowflake-udemo-usecase-4Flow" doc:id="8205cdf8-d3fd-4214-8a98-9ca3b8b13afc" >
+		<http:listener doc:name="Listener" doc:id="de3ae322-ecc9-4212-b7d4-fff551ddcdbe" config-ref="http_listener_config_external_config" path="/usecase4">
+			<http:error-response statusCode="#[vars.httpStatus default 500]" >
+				<http:body ><![CDATA[#[vars.error.error default "Error100"]]]></http:body>
+			</http:error-response>
+		</http:listener>
+		<logger level="INFO" doc:name="LOG START" doc:id="112381c9-394b-4526-b23a-c74ebca2b46c" message='#["LOG START Usecase 4"]'/>
+		<ee:transform doc:name="Transform Message" doc:id="1b10ac08-1dc8-49e0-8b70-c2b22d3879e9" >
+			<ee:message >
+			</ee:message>
+			<ee:variables >
+				<ee:set-variable variableName="numRecords" ><![CDATA[%dw 2.0
+output application/java
+---
+attributes.queryParams.numRecords]]></ee:set-variable>
+			</ee:variables>
+		</ee:transform>
+		<snowflake:select doc:name="Select" doc:id="14954365-ef86-4a64-b61c-695a376ef8dd" config-ref="snowflake_config_from_config_file" maxRows="#[vars.numRecords]" targetValue="#[output application/json --- payload]">
+			<snowflake:sql ><![CDATA[select * from Customer]]></snowflake:sql>
+		</snowflake:select>
+		<foreach doc:name="For Each" doc:id="0eebf87d-03b9-4c11-8788-f4f6160d76d0" collection="#[payload]">
+			<flow-ref doc:name="write-to-file-flow" doc:id="290fab9d-ad06-4656-9f76-d4657f7c6680" name="write-to-file-flow" />
+		</foreach>
+		<logger level="INFO" doc:name="LOG END" doc:id="4c0948fa-a561-4513-9a97-3a5e85359729" message='#["LOG END Usecase 4"]' />
+	</flow>
+	<flow name="write-to-file-flow" doc:id="107ebf3c-9fc0-4f14-a0f7-bb36fb5d3a92" >
+		<logger level="INFO" doc:name="LOG INFO" doc:id="d146b8f2-a672-425c-89a2-4b7e78ef82c8" message='#["Beginning of Write to File"]'/>
+		<file:write doc:name="Write" doc:id="99115241-fc30-4e80-a9b0-962f226260e2" config-ref="File_Config" path='#["record $(vars.counter).json"]'>
+			<file:content ><![CDATA[#[output application/json --- payload]]]></file:content>
+		</file:write>
+		<logger level="INFO" doc:name="LOG INFO" doc:id="008f5391-56f0-4e31-9cd8-93ae599cd06c" message='#["End of Write to File"]' />
+		<error-handler >
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="c4f563d8-9c70-42d3-915c-110f09e0f250" >
+				<set-variable value="504" doc:name="httpStatus" doc:id="8d11c0e5-f7d8-44e3-890e-95697e1c007b" variableName="httpStatus"/>
+				<set-variable value='#[{&#10;	error: "Something happened"&#10;}]' doc:name="error" doc:id="1eb0f204-d41f-4525-96b0-6d7030f79911" variableName="error" />
+			</on-error-propagate>
+		</error-handler>
+	</flow>
+</mule>

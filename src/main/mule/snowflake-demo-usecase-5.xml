@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns:batch="http://www.mulesoft.org/schema/mule/batch"
+	xmlns:snowflake="http://www.mulesoft.org/schema/mule/snowflake" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/snowflake http://www.mulesoft.org/schema/mule/snowflake/current/mule-snowflake.xsd
+http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/batch/current/mule-batch.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<flow name="snowflake-demo-usecase-5Flow" doc:id="35f3c0d7-f717-4d49-8c58-3b5880f5b7c2" >
+		<http:listener doc:name="Listener" doc:id="0821ae3b-af6e-4ad3-949b-14f91d9aba87" path="/usecase-5" config-ref="http_listener_config_external_config"/>
+		<logger level="INFO" doc:name="LOG START" doc:id="16bea99f-fc00-46b1-b2f7-a22263747876" message='#["Start Use case 5"]' />
+		<snowflake:select doc:name="Select" doc:id="da762b6f-ddcf-47d7-b902-45c956a449d1" config-ref="snowflake_config_from_config_file" >
+			<snowflake:sql ><![CDATA[select TOP 1000 * from customer;]]></snowflake:sql>
+		</snowflake:select>
+		<flow-ref doc:name="Flow Reference" doc:id="ed502263-5987-4ff9-af67-df056ffba7c5" name="snowflake-demo-usecase-5-flow"/>
+		<logger level="INFO" doc:name="LOG INFO" doc:id="907101a0-299e-4c15-ba8d-c5f73876352e" message='#["End Use case 5"]' />
+	</flow>
+	<flow name="snowflake-demo-usecase-5-flow" doc:id="c5cf005a-edb5-4436-84d7-2b4b68541d2e" >
+		<logger level="INFO" doc:name="LOG INFO" doc:id="926b597e-602b-419d-b71f-e7d6f3beeda1" message='#["Start Batch Job"]' />
+		<set-variable value="0" doc:name="count" doc:id="a472f3fe-b86c-4b37-ab1c-0216b4d0fc22" variableName="count"/>
+		<batch:job jobName="snowflake-demo-usecase-5Batch_Job" doc:id="d65d7236-9e80-4056-aadd-f73d4c3fb7a7" blockSize="1000">
+			<batch:process-records >
+				<batch:step name="Batch_Step" doc:id="76597f0a-c118-4481-9130-63717f063fac" >
+					<batch:aggregator doc:name="Batch Aggregator" doc:id="93b4ec3f-241c-4297-af88-eedbf28c61d3" size="100">
+						<set-variable value="#[vars.count as Number + 1]" doc:name="count" doc:id="89497256-14eb-42d8-80ec-42036b5e5acb" variableName="count" />
+						<logger level="INFO" doc:name="Logger" doc:id="ae18357a-aa1a-4b6b-ab40-8da8a8c54087" message='#["Count inside aggregator " ++ vars.count]'/>
+						<ee:transform doc:name="Transform Message" doc:id="608d2efe-e569-4b5f-9a32-1f5bc048ee2a">
+						<ee:message>
+							<ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+payload]]></ee:set-payload>
+						</ee:message>
+					</ee:transform>
+						<file:write doc:name="Write" doc:id="716394de-5627-4592-aa96-92c060d1d899" config-ref="File_Config" path='#["batchRecord $(now()).json"]'/>
+					</batch:aggregator>
+				</batch:step>
+			</batch:process-records>
+			<batch:on-complete>
+				<logger level="INFO" doc:name="LOG INFO" doc:id="63276d7e-3e17-40f4-a615-1f9574c22535" message='#["Batch Job Complete"]' />
+			</batch:on-complete>
+		</batch:job>
+	</flow>
+</mule>

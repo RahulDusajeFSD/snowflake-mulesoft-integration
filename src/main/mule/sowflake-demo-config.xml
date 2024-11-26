@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:snowflake="http://www.mulesoft.org/schema/mule/snowflake"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/snowflake http://www.mulesoft.org/schema/mule/snowflake/current/mule-snowflake.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+
+	<flow name="sowflake-demo-configFlow" doc:id="617291f5-13b7-4569-b3d4-08978aaff405" >
+		<http:listener doc:name="Listener" doc:id="0826cb91-17c5-41fb-9b0e-cf7a0f58d351" config-ref="http_listener_config_external_config" path="/usecase2"/>
+		<logger level="INFO" doc:name="LOG START" doc:id="9d2c8da0-ed1c-4140-a566-85fdd0982af3" message='#["Start Use case 2"]'/>
+		<set-variable value="#[attributes.queryParams.limit]" doc:name="limit" doc:id="33cd5655-d78e-4588-ade1-2971a9d8416f" variableName="limit"/>
+		<snowflake:select doc:name="Select" doc:id="6efb11bc-f8b4-4bb1-ab57-f5d775af45f1" config-ref="snowflake_config_from_config_file">
+			<snowflake:sql ><![CDATA[#["select * from customer limit $(vars.limit)"]]]></snowflake:sql>
+		</snowflake:select>
+		<ee:transform doc:name="Transform Message" doc:id="67a89e6e-6e2e-4e87-91bc-3796fa7be5be" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+payload]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="LOG END" doc:id="68a3f114-aae2-4b8b-8364-b7c00bc5754d" message='#["End Use case 2"]' />
+	</flow>
+</mule>

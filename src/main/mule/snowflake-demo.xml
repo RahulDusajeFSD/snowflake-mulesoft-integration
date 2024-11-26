@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:snowflake="http://www.mulesoft.org/schema/mule/snowflake" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/snowflake http://www.mulesoft.org/schema/mule/snowflake/current/mule-snowflake.xsd">
+
+	<flow name="snowflake-demoFlow" doc:id="a9db5223-4acf-442c-b841-5439aa8c3750" >
+		<http:listener doc:name="Listener" doc:id="30055e4c-237e-48ef-86fb-9930f73a8ee1" config-ref="HTTP_Listener_config" path="/usecase1"/>
+		<logger level="INFO" doc:name="LOG START" doc:id="94b6ffe9-d4b9-40aa-8739-6476625ee3ab" message='#["Use Case 1"]'/>
+		<snowflake:select doc:name="Select" doc:id="95b04f3c-540d-4a51-8806-e64fdf9b9f45" config-ref="snowflake_config_from_config_file">
+			<snowflake:sql ><![CDATA[select top 10 * from customer;]]></snowflake:sql>
+		</snowflake:select>
+		<set-payload value="#[output application/json --- payload]" doc:name="Set Payload" doc:id="d9ba32d9-ad0e-4ff6-a12c-fc49b28bbc7d" />
+		<logger level="INFO" doc:name="LOG END" doc:id="37ecf846-ab62-483e-8e07-2469250b4d8b" message="#[output application/json --- payload]"/>
+	</flow>
+</mule>

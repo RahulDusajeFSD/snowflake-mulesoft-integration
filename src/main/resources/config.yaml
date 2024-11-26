@@ -1,0 +1,12 @@
+http:
+  port: "8083"
+
+  
+snowflake:
+  accountName: "ze39676.ca-central-1.aws"
+  warehouse: "COMPUTE_WH"
+  database: "SNOWFLAKE_SAMPLE_DATA"
+  schema: "TPCH_SF100"
+  user: "![+jwxEejf14g=]"
+  role: "ACCOUNTADMIN"
+  password: "![PMTKc0Tnd+aPdm3s7ur2hy2cj1VHX2JE]"

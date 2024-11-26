@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:snowflake="http://www.mulesoft.org/schema/mule/snowflake"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/snowflake http://www.mulesoft.org/schema/mule/snowflake/current/mule-snowflake.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<flow name="sowflake-demo-usecase-3-flow" doc:id="090409e0-8a52-442a-a1a6-3dde38a602b6" >
+		<http:listener doc:name="Listener" doc:id="ec81b4ca-348f-4adc-938f-85817c8da60f" config-ref="http_listener_config_external_config" path="/usecase3/{c_key}" />
+		<logger level="INFO" doc:name="LOG START" doc:id="6dd4dd73-d7c8-4646-a54a-3c38ade00477" message='#["Start Use case 3"]' />
+		<set-variable value="#[attributes.queryParams.c_address]" doc:name="c_address" doc:id="0e8a80b5-7717-43ac-9717-33e57dfe208a" variableName="c_address" />
+		<set-variable value="#[attributes.uriParams.c_key]" doc:name="c_key" doc:id="90866c1a-eba4-43b7-8260-c7df2038c7ff" variableName="c_key"/>
+		<snowflake:select doc:name="Select" doc:id="3a9bc94e-7ea1-4434-89b1-79bb9cf83d41" config-ref="snowflake_config_from_config_file" >
+			<snowflake:sql ><![CDATA[select * from customer where C_CUSTKEY =:c_key and C_ADDRESS =:c_address
+]]></snowflake:sql>
+			<snowflake:input-parameters ><![CDATA[#[{
+	c_key: vars.c_key,
+	c_address: vars.c_address
+}]]]></snowflake:input-parameters>
+		</snowflake:select>
+		<ee:transform doc:name="Transform Message" doc:id="d04d1467-7e04-4c92-bcec-fa20413e9d29" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+payload]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="LOG END" doc:id="a8028784-9264-4c5c-b09e-967ba66e8eb8" message='#["End Use case 3"]' />
+	</flow>
+</mule>
